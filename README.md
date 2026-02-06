@@ -24,8 +24,8 @@ CRM Application - BackendThis is the backend server for a Customer Relationship 
 📑 API Endpoints (Quick Reference)MethodEndpointDescription
 
     POST/crm/api/v1/auth/signup Register a new user
-    POST/crm/api/v1/auth/signinLogin and receive JWTGET
-    /crm/api/v1/usersGet all users (Admin only)
+    POST/crm/api/v1/auth/signinLogin and receive JWT
+    GET/crm/api/v1/usersGet all users (Admin only)
     GET/crm/api/v1/ticketsView all tickets (Filtered by role)
     POST/crm/api/v1/ticketsCreate a new ticket (Customer)
     PUT/crm/api/v1/tickets/:idUpdate ticket details
